@@ -1,0 +1,19 @@
+#+TITLE: Unitime JS React
+#+STARTUP: content
+
+* Documention and tools
+
+  - https://github.com/facebookincubator/create-react-app
+  - https://facebook.github.io/react/tutorial/tutorial.html
+
+* Docker and Node environment
+
+  We are using [[https://www.docker.com/][Docker]] to have an isolated environment were we can develop the application.
+  Navigate to this project in a shell. The first command will download the node base
+  container, start it and attach a tty to us. The next command will start the development
+  server.
+
+  #+BEGIN_SRC sh
+    docker run -it --rm -v $PWD:/app --net host node bash
+    npm start
+  #+END_SRC
