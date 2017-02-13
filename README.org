@@ -3,8 +3,13 @@
 
 * Documention and tools
 
-  - https://github.com/facebookincubator/create-react-app
-  - https://facebook.github.io/react/tutorial/tutorial.html
+  - Unitime API :: The Rest API documentation is located [[https://github.com/Kodkollektivet/unitime-api][here]], is is all JSON.
+
+  - The tool for generating the base application ::
+    https://github.com/facebookincubator/create-react-app
+
+  - React tutorial :: https://facebook.github.io/react/tutorial/tutorial.html
+
 
 * Docker and Node environment
 
@@ -19,3 +24,10 @@
     npm install
     npm start
   #+END_SRC
+
+* TODOs
+
+- [ ] List courses in a nice way.
+- [ ] Search for a course, both with course code and course name.
+- [ ] Save added courses in web storage.
+- [ ] List course events related to course.
