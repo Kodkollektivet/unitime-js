@@ -15,5 +15,7 @@
 
   #+BEGIN_SRC sh
     docker run -it --rm -v $PWD:/app --net host node bash
+    cd /app/
+    npm install
     npm start
   #+END_SRC
